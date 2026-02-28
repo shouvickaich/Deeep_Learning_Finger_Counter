@@ -1,2 +1,8 @@
 libgl1
 libglib2.0-0
+libopus0          ← audio codec (aiortc needs this)
+libvpx-dev        ← video codec
+libsrtp2-1        ← secure RTP
+libavdevice-dev   ← ffmpeg av device support
+libavfilter-dev   ← ffmpeg filter support
+pkg-config        ← needed for native builds
